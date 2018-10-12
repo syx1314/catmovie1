@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="@dimen/paddings">
+
+    <ImageView
+        android:id="@+id/iv_film_img"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="@dimen/paddings_8"
+        android:scaleType="fitXY"
+        android:src="@mipmap/text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginLeft="@dimen/spacing_medium"
+        android:layout_toRightOf="@id/iv_film_img"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_flim_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="封神榜"
+            android:textColor="@color/color_text_main"
+            android:textSize="@dimen/sp_content" />
+
+        <TextView
+            android:id="@+id/tv_flim_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/paddings"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textColor="@color/text_content" />
+
+        <TextView
+            android:id="@+id/tv_flim_jishu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/paddings"
+            android:maxLines="2"
+            android:textColor="@color/text_content" />
+
+        <TextView
+            android:id="@+id/tv_play"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_circle_green_bg"
+            android:padding="@dimen/paddings_8"
+            android:text="立即播放"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <View
+        style="@style/style_hortical_line"
+        android:layout_below="@id/iv_film_img" />
+</RelativeLayout>

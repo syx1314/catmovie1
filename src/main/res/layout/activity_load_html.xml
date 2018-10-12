@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.trsoft.catmovie.common.CommonTitle
+        android:id="@+id/ct_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rightTvContent="首页"
+        app:rightTvVisibility="true" />
+
+    <LinearLayout
+        android:id="@+id/btn_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_play_bg"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/vip_free" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/paddings"
+            android:gravity="center"
+            android:padding="@dimen/paddings"
+            android:text="立即播放"
+            android:textColor="#FFD700"
+            android:textScaleX="1.5"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_play"
+        android:layout_below="@id/ct_title"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_webview" />
+    </LinearLayout>
+</RelativeLayout>

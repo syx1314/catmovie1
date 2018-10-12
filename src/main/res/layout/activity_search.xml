@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.trsoft.catmovie.SearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@color/red">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginLeft="@dimen/spacing_medium"
+            android:src="@mipmap/icon_left_arraw" />
+
+        <EditText
+            android:id="@+id/et_keyWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:background="@drawable/shape_circle_white_bg"
+            android:paddingLeft="@dimen/paddings"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/color_text_main"
+            android:drawableRight="@mipmap/icon_search"
+            android:paddingRight="@dimen/paddings_8"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:textSize="@dimen/sp_content2"
+            android:hint="请输入全网搜索关键字"
+            android:layout_marginRight="@dimen/spacing_medium"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

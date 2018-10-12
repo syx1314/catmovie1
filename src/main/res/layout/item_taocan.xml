@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/lin_item_taocan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/paddings_8"
+        android:background="@drawable/shape_circle_gray_stroke_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="@dimen/spacing_medium"
+        android:paddingRight="@dimen/spacing_medium"
+        android:layout_marginTop="@dimen/paddings_8"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="包月套餐" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="3dp"
+            android:text="¥5" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_medium">
+
+        <ImageView
+            android:id="@+id/iv_pay_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_jifen" />
+
+        <TextView
+            android:id="@+id/tv_pay_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_medium"
+            android:layout_weight="1"
+            android:text="支付宝" />
+
+        <CheckBox
+            android:id="@+id/cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:button="@drawable/sel_cb_check"
+            android:clickable="false" />
+    </LinearLayout>
+
+    <View style="@style/style_hortical_line" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">猫影</string>
+    <string name="title_home">首页</string>
+    <string name="title_find">发现</string>
+    <string name="title_me">我的</string>
+    <!--登录-->
+    <string name="title_login">登录</string>
+    <string name="login_phone">手机号</string>
+    <string name="login_phone_hint">请输入手机号</string>
+    <string name="login_code">验证码</string>
+    <string name="login_cb_tips">同意《亿游天下用户协议》</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_approve">请同意协议</string>
+
+    <!--个人中心-->
+    <string name="me_jhm">卡密充值</string>
+    <string name="me_jf">积分</string>
+    <string name="me_online_change">在线充值</string>
+    <string name="me_buy_vip">会员充值</string>
+    <string name="me_km_vip">激活码兑换</string>
+    <string name="me_yaoqing">邀请有奖</string>
+    <string name="me_question">常见问题</string>
+    <string name="me_leave_word">留言求片</string>
+    <string name="me_version">当前版本</string>
+
+
+    <!--TODO: 会员开通-->
+    <string name="vip_sel_taocan">请选择套餐</string>
+    <string name="vip_exchange">充值</string>
+
+</resources>

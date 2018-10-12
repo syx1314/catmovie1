@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.trsoft.catmovie.KmRechangeActivity">
+
+    <com.trsoft.catmovie.common.CommonTitle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/me_jhm" />
+
+    <EditText
+        android:id="@+id/et_jhm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/paddings"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/shape_circle_white_bg"
+        android:hint="请输入激活码" />
+
+    <Button
+        android:id="@+id/btn_recharge"
+        style="@style/style_common_view"
+        android:layout_height="@dimen/btn_height"
+        android:background="@drawable/sel_btn_login"
+        android:textColor="@color/white"
+        android:text="充值" />
+</LinearLayout>

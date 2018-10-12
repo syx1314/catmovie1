@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_bg"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@mipmap/beijing"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/spacing_medium">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_jifen"
+            android:drawablePadding="@dimen/paddings_8"
+            android:gravity="center_vertical"
+            android:text="@string/me_jf" />
+
+        <TextView
+            android:id="@+id/tv_points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/paddings_8"
+            android:drawableRight="@mipmap/jinru"
+            android:gravity="right|center_vertical"
+            android:text="11" />
+    </LinearLayout>
+
+    <View style="@style/style_hortical_line" />
+
+    <TextView
+        android:id="@+id/tv_vip_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_km"
+        android:drawablePadding="@dimen/paddings_8"
+        android:drawableRight="@mipmap/jinru"
+        android:gravity="center_vertical"
+        android:padding="@dimen/spacing_medium"
+        android:background="@color/white"
+        android:text="@string/me_buy_vip" />
+
+    <View style="@style/style_hortical_line" />
+    <TextView
+        android:id="@+id/tv_km_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_km1"
+        android:drawablePadding="@dimen/paddings_8"
+        android:drawableRight="@mipmap/jinru"
+        android:gravity="center_vertical"
+        android:padding="@dimen/spacing_medium"
+        android:background="@color/white"
+        android:text="@string/me_km_vip" />
+
+    <View style="@style/style_hortical_line" />
+
+    <TextView
+        android:id="@+id/tv_yaoqing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_yaoqing"
+        android:drawablePadding="@dimen/paddings_8"
+        android:background="@color/white"
+        android:drawableRight="@mipmap/jinru"
+        android:gravity="center_vertical"
+        android:padding="@dimen/spacing_medium"
+        android:text="@string/me_yaoqing" />
+    <View style="@style/style_hortical_line" />
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_question"
+        android:drawablePadding="@dimen/paddings_8"
+        android:drawableRight="@mipmap/jinru"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:padding="@dimen/spacing_medium"
+        android:text="@string/me_question" />
+    <View style="@style/style_hortical_line" />
+    <TextView
+        android:id="@+id/tv_leave_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_msg"
+        android:drawablePadding="@dimen/paddings_8"
+        android:drawableRight="@mipmap/jinru"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:padding="@dimen/spacing_medium"
+        android:text="@string/me_leave_word" />
+
+    <View style="@style/style_hortical_line" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/spacing_medium">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_version"
+            android:drawablePadding="@dimen/paddings_8"
+            android:gravity="center_vertical"
+            android:text="@string/me_version" />
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/paddings_8"
+            android:gravity="right|center_vertical" />
+    </LinearLayout>
+    <View style="@style/style_hortical_line" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:text="注销"
+        android:layout_marginTop="@dimen/paddings"
+        android:layout_marginLeft="@dimen/paddings"
+        android:layout_marginRight="@dimen/paddings"/>
+</LinearLayout>

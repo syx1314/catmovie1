@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.trsoft.catmovie.LeaveWordActivity">
+
+    <com.trsoft.catmovie.common.CommonTitle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="留言求片" />
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="7"
+        android:gravity="top"
+        android:hint="请输入留言"
+        android:textSize="@dimen/sp_content2"
+        android:padding="@dimen/paddings_8"
+        android:background="@drawable/shape_circle_gray_stroke_bg"
+        android:layout_margin="@dimen/paddings_8"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:background="@drawable/sel_btn_login"
+        android:textColor="@color/white"
+        android:layout_margin="@dimen/spacing_medium"/>
+</LinearLayout>
