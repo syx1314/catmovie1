@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_video"
+            android:layout_width="135dp"
+            android:layout_height="163dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/text" />
+        <TextView
+            android:id="@+id/tv_video_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_10"
+            android:layout_gravity="right|bottom"
+            android:layout_margin="@dimen/paddings"
+            android:background="@drawable/shape_search_bg"
+            android:text="更新至20集"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_video_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginTop="@dimen/paddings"
+        android:layout_marginBottom="@dimen/paddings"
+        android:text="11111111" />
+
+</LinearLayout>

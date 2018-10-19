@@ -102,7 +102,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/split-apk" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/splits-support" />
@@ -110,67 +109,86 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
-      <excludeFolder url="file://$MODULE_DIR$/build/reports" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="com.squareup.retrofit2:converter-gson:2.3.0@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-media-compat-26.1.0" level="project" />
+    <orderEntry type="library" name="com.android.support:animated-vector-drawable-27.0.2" level="project" />
     <orderEntry type="library" name="com.android.support:recyclerview-v7-26.1.0" level="project" />
     <orderEntry type="library" name="com.makeramen:roundedimageview-2.2.1" level="project" />
+    <orderEntry type="library" name="com.shuyu:gsyVideoPlayer-base-6.0.1" level="project" />
     <orderEntry type="library" name="__local_aars__:C.\Users\Administrator\Desktop\catmovie\app\libs\SMSSDK-3.1.1.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="android.arch.lifecycle:common:1.0.0@jar" level="project" />
     <orderEntry type="library" name="com.alibaba:arouter-api-1.3.1" level="project" />
     <orderEntry type="library" scope="TEST" name="com.squareup:javawriter:2.1.1@jar" level="project" />
     <orderEntry type="library" name="io.reactivex:rxandroid-1.2.1" level="project" />
     <orderEntry type="library" name="com.trello:rxlifecycle-components-0.3.1" level="project" />
-    <orderEntry type="library" name="android.arch.lifecycle:runtime-1.0.0" level="project" />
     <orderEntry type="library" name="__local_aars__:C.\Users\Administrator\Desktop\catmovie\app\libs\SDKWrapper-2018.0201.1609.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:appcompat-v7-26.1.0" level="project" />
-    <orderEntry type="library" name="com.android.support:support-annotations:26.1.0@jar" level="project" />
+    <orderEntry type="library" name="com.scwang.smartrefresh:SmartRefreshLayout-1.1.0-alpha-14" level="project" />
+    <orderEntry type="library" name="com.shuyu:gsyVideoPlayer-armv5-6.0.1" level="project" />
     <orderEntry type="library" name="com.android.support.constraint:constraint-layout-solver:1.0.2@jar" level="project" />
     <orderEntry type="library" name="com.android.support.constraint:constraint-layout-1.0.2" level="project" />
-    <orderEntry type="library" name="com.android.support:support-core-ui-26.1.0" level="project" />
     <orderEntry type="library" name="com.gyf.barlibrary:barlibrary-2.3.0" level="project" />
     <orderEntry type="library" name="com.tbruyelle.rxpermissions:rxpermissions-0.9.4" level="project" />
     <orderEntry type="library" name="com.google.code.gson:gson:2.8.2@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="com.android.support.test:runner-1.0.1" level="project" />
+    <orderEntry type="library" name="android.arch.lifecycle:runtime-1.0.3" level="project" />
+    <orderEntry type="library" name="com.android.support:support-vector-drawable-27.0.2" level="project" />
     <orderEntry type="library" scope="TEST" name="com.google.code.findbugs:jsr305:2.0.1@jar" level="project" />
+    <orderEntry type="library" name="com.shuyu:gsyVideoPlayer-x86-6.0.1" level="project" />
+    <orderEntry type="library" name="com.google.android.exoplayer:exoplayer-dash-2.8.4" level="project" />
     <orderEntry type="library" scope="TEST" name="com.android.support.test.espresso:espresso-idling-resource-3.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="org.hamcrest:hamcrest-core:1.3@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-compat-26.1.0" level="project" />
     <orderEntry type="library" name="com.jakewharton:butterknife-annotations:8.8.1@jar" level="project" />
     <orderEntry type="library" name="com.squareup.okhttp3:logging-interceptor:3.8.1@jar" level="project" />
     <orderEntry type="library" name="android.arch.core:common:1.0.0@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:support-core-ui-27.0.2" level="project" />
+    <orderEntry type="library" name="com.android.support:support-compat-27.0.2" level="project" />
     <orderEntry type="library" scope="TEST" name="org.hamcrest:hamcrest-integration:1.3@jar" level="project" />
+    <orderEntry type="library" name="com.google.android.exoplayer:exoplayer-hls-2.8.4" level="project" />
+    <orderEntry type="library" name="com.shuyu:GSYVideoPlayer-exo2-6.0.1" level="project" />
+    <orderEntry type="library" name="com.android.support:support-media-compat-27.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="net.sf.kxml:kxml2:2.3.0@jar" level="project" />
     <orderEntry type="library" name="com.alibaba:arouter-annotation:1.0.4@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:support-fragment-27.0.2" level="project" />
     <orderEntry type="library" name="com.android.support:transition-26.1.0" level="project" />
     <orderEntry type="library" name="com.android.support:design-26.1.0" level="project" />
     <orderEntry type="library" name="com.flyco.labelview:FlycoLabelView_Lib-1.0.2" level="project" />
     <orderEntry type="library" name="com.trello:rxlifecycle-0.3.1" level="project" />
+    <orderEntry type="library" name="com.android.support:appcompat-v7-27.0.2" level="project" />
+    <orderEntry type="library" name="com.android.support:support-annotations:27.0.2@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="junit:junit:4.12@jar" level="project" />
+    <orderEntry type="library" name="net.butterflytv.utils:rtmp-client-3.0.1" level="project" />
+    <orderEntry type="library" name="com.shuyu:gsyvideoplayer-androidvideocache-6.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="com.android.support.test.espresso:espresso-core-3.0.1" level="project" />
-    <orderEntry type="library" name="com.android.support:support-fragment-26.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="javax.inject:javax.inject:1@jar" level="project" />
     <orderEntry type="library" name="io.reactivex:rxjava:1.1.6@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-vector-drawable-26.1.0" level="project" />
+    <orderEntry type="library" name="com.shuyu:gsyVideoPlayer-java-6.0.1" level="project" />
     <orderEntry type="library" name="__local_aars__:C.\Users\Administrator\Desktop\catmovie\app\libs\tbs_sdk_thirdapp_v3.1.0.1034_43100_sharewithdownload_obfs_20170301_182143.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="com.google.android.exoplayer:exoplayer-ui-2.8.4" level="project" />
     <orderEntry type="library" name="com.squareup.okhttp3:okhttp:3.8.1@jar" level="project" />
     <orderEntry type="library" name="com.squareup.retrofit2:adapter-rxjava:2.1.0@jar" level="project" />
     <orderEntry type="library" name="com.github.bumptech.glide:glide:3.6.1@jar" level="project" />
     <orderEntry type="library" name="__local_aars__:C.\Users\Administrator\Desktop\catmovie\app\libs\MobTools-2018.0419.1211.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-core-utils-26.1.0" level="project" />
+    <orderEntry type="library" name="com.shuyu:gsyVideoPlayer-arm64-6.0.1" level="project" />
     <orderEntry type="library" name="com.squareup.okio:okio:1.13.0@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="com.android.support.test:rules-1.0.1" level="project" />
     <orderEntry type="library" name="com.squareup.retrofit2:retrofit:2.3.0@jar" level="project" />
+    <orderEntry type="library" name="com.andkulikov:transitionseverywhere-1.7.0" level="project" />
+    <orderEntry type="library" name="com.shuyu:gsyVideoPlayer-armv7a-6.0.1" level="project" />
+    <orderEntry type="library" name="android.arch.lifecycle:common:1.0.3@jar" level="project" />
+    <orderEntry type="library" name="tv.danmaku.ijk.media:ijkplayer-java-0.8.8" level="project" />
     <orderEntry type="library" name="com.jakewharton:butterknife-8.8.1" level="project" />
+    <orderEntry type="library" name="com.google.android.exoplayer:exoplayer-smoothstreaming-2.8.4" level="project" />
     <orderEntry type="library" scope="TEST" name="org.hamcrest:hamcrest-library:1.3@jar" level="project" />
+    <orderEntry type="library" name="com.google.android.exoplayer:exoplayer-2.8.4" level="project" />
     <orderEntry type="library" name="com.youth.banner:banner-1.4.10" level="project" />
+    <orderEntry type="library" name="com.shuyu:gsyVideoPlayer-x64-6.0.1" level="project" />
     <orderEntry type="library" name="com.android.support:support-v4-26.1.0" level="project" />
     <orderEntry type="library" name="__local_aars__:C.\Users\Administrator\Desktop\catmovie\app\libs\MobCommons-2018.0418.1102.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:animated-vector-drawable-26.1.0" level="project" />
+    <orderEntry type="library" name="com.google.android.exoplayer:exoplayer-core-2.8.4" level="project" />
+    <orderEntry type="library" name="com.google.android.exoplayer:extension-rtmp-2.8.4" level="project" />
+    <orderEntry type="library" name="com.android.support:support-core-utils-27.0.2" level="project" />
     <orderEntry type="library" name="com.orhanobut:logger-2.1.1" level="project" />
     <orderEntry type="library" name="com.jakewharton.rxbinding:rxbinding-0.3.0" level="project" />
     <orderEntry type="module" module-name="lib" />

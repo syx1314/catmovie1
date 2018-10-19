@@ -6,6 +6,7 @@ import android.graphics.PixelFormat;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.webkit.JavascriptInterface;
 
@@ -88,16 +89,17 @@ public class LoadHtmlActivity extends BaseLoginActivity {
 
     @Override
     protected void onDestroy() {
+        ViewGroup view = (ViewGroup) getWindow().getDecorView();
+        view.removeAllViews();
         super.onDestroy();
         webView.destroy();
-        DialogUtil.dismissProgress();
     }
     @OnClick(R.id.btn_play)
     public void play(View view){
         String token = PreferenceUtils.getInstance().getString(Constant.TOKEN);
         Intent intent = new Intent(activity, LoadHtmlActivity.class);
         intent.putExtra(Constant.BUNDLE_STRING, title);
-        intent.putExtra(Constant.BUNDLE_URL, "http://vip.catmovie.cn.cn/index1.php?url="+webView.getUrl()+"&token="+token);
+        intent.putExtra(Constant.BUNDLE_URL, "http://vip.catmovie.cn/index1.php?url="+webView.getUrl()+"&token="+token);
         activity.startActivity(intent);
     }
 }

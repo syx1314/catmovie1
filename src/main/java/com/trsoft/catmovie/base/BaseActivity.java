@@ -39,7 +39,7 @@ public abstract class BaseActivity extends ActivitySupport {
         setContentView(getLayout());
         activity=this;
         ButterKnife.bind(this);
-        ImmersionBar.with(this).fitsSystemWindows(true).statusBarColor(R.color.red).init();
+        ImmersionBar.with(this).statusBarColor(R.color.red).init();
     }
 
 

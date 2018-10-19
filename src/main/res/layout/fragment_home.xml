@@ -1,27 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/base_bg"
     android:orientation="vertical">
 
-    <com.trsoft.catmovie.common.CommonTitle
-        android:id="@+id/title"
+    <com.trsoft.catmovie.view.FloatScrollView
+        android:id="@+id/mySv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.youth.banner.Banner
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/banner_height" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_sub_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/paddings_8"
+                android:drawableLeft="@mipmap/message_tip_bg"
+                android:drawablePadding="@dimen/paddind_5"
+                android:paddingBottom="@dimen/paddings"
+                android:paddingTop="@dimen/paddings"
+                android:text="实时更新剧集任你看"
+                android:textColor="@color/color_text_main"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_recomend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.trsoft.catmovie.view.FloatScrollView>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:leftVisibility="false"
-        app:rightTvContent="搜索"
-        app:rightTvVisibility="true"
-        app:title="首页" />
+        android:orientation="vertical">
 
-    <com.youth.banner.Banner
-        android:id="@+id/banner"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/banner_height" />
+        <LinearLayout
+            android:id="@+id/lin_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_jianbian_bg"
+            android:gravity="center"
+            android:paddingBottom="@dimen/paddings"
+            android:paddingTop="@dimen/paddings">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-</LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_medium"
+                android:layout_weight="1"
+                android:text="@string/app_name"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_key"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="2"
+                android:background="@drawable/shape_search_bg"
+                android:drawableLeft="@mipmap/ic_search"
+                android:drawablePadding="@dimen/drawable_paddind"
+                android:gravity="center"
+                android:hint="请输入关键字搜索"
+                android:minWidth="160dp"
+                android:paddingBottom="@dimen/paddings_8"
+                android:paddingLeft="@dimen/spacing_medium"
+                android:paddingRight="@dimen/spacing_medium"
+                android:paddingTop="@dimen/paddings_8"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/sp_content3" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <ImageView
+                    android:id="@+id/iv_play_record"
+                    android:layout_width="27dp"
+                    android:layout_height="27dp"
+                    android:layout_marginLeft="@dimen/spacing_medium"
+                    android:layout_toRightOf="@id/tv_key"
+                    android:background="@drawable/shape_tranpart_bg"
+                    android:src="@mipmap/ic_service_time"
+                    android:tint="@color/white" />
+
+                <ImageView
+                    android:id="@+id/iv_download"
+                    android:layout_width="27dp"
+                    android:layout_height="27dp"
+                    android:layout_marginLeft="@dimen/spacing_medium"
+                    android:layout_marginRight="@dimen/spacing_medium"
+                    android:layout_toRightOf="@id/tv_key"
+                    android:background="@drawable/shape_tranpart_bg"
+                    android:src="@mipmap/main_download_0"
+                    android:tint="@color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_update_sub_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/paddings_8"
+            android:drawableLeft="@mipmap/message_tip_bg"
+            android:drawablePadding="@dimen/paddind_5"
+            android:paddingBottom="@dimen/paddings"
+            android:paddingTop="@dimen/paddings"
+            android:background="@color/white"
+            android:text="实时更新剧集任你看"
+            android:textColor="@color/color_text_main"
+            android:visibility="gone"
+            android:textStyle="bold" />
+    </LinearLayout>
+</FrameLayout>

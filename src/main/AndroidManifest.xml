@@ -21,8 +21,8 @@
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        tools:replace="android:name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:replace="android:name">
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
@@ -40,7 +40,11 @@
         <activity android:name=".BuyVipActivity" />
         <activity android:name=".LeaveWordActivity" />
         <activity android:name=".SearchActivity" />
-        <activity android:name=".TcMovieActivity"></activity>
+        <activity android:name=".TcMovieActivity" />
+        <activity
+            android:name=".VideoPlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

@@ -8,6 +8,7 @@
     <dimen name="paddind_left">10dp</dimen>
     <dimen name="paddind_rigt">10dp</dimen>
     <dimen name="paddind_top">8dp</dimen>
+    <dimen name="paddind_5">5dp</dimen>
     <dimen name="paddind_bottom">8dp</dimen>
     <dimen name="line_height">0.5dp</dimen>
     <dimen name="drawable_paddind">3dp</dimen>

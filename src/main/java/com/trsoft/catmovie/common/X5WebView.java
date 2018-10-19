@@ -104,7 +104,7 @@ public class X5WebView extends WebView {
 
 //            String s1 = s.replace("m.", "");
 //            htmlContent.replace("s1",s);
-            htmlContent = "<iframe  allowtransparency=\"true\"  mozallowfullscreen=\"true\"  webkitallowfullscreen=\"true\"  allowfullscreen=true allowfullscreen=\"true\" id=\"iframepage\" marginwidth=\"0\" marginheight=\"0\" hspace=\"0\" vspace=\"0\" frameborder=\"0\" scrolling=\"no\" src=\"http://vip.hooshop.cn/index1.php?url=" + s + "&token=" + token + "\" height=\"200px\" width=\"100%\"></iframe>";
+            htmlContent = "<iframe  allowtransparency=\"true\"  mozallowfullscreen=\"true\"  webkitallowfullscreen=\"true\"  allowfullscreen=true allowfullscreen=\"true\" id=\"iframepage\" marginwidth=\"0\" marginheight=\"0\" hspace=\"0\" vspace=\"0\" frameborder=\"0\" scrolling=\"no\" src=\"http://vip.catmovie.cn/index1.php?url=" + s + "&token=" + token + "\" height=\"200px\" width=\"100%\"></iframe>";
 
             MyLog.e("加载url*****onPageFinished页面加载完毕" + htmlContent);
             String fun = "javascript:function getClass(parent,sClass) { var aEle=parent.getElementsByTagName('div'); var aResult=[]; var i=0; for(i<0;i<aEle.length;i++) { if(aEle[i].className==sClass) {  aResult.push(aEle[i]); } }; return aResult; }";

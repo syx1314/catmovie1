@@ -1,6 +1,7 @@
 package com.trsoft.catmovie.api;
 
 import com.trsoft.app.lib.http.ApiResultBean;
+import com.trsoft.catmovie.entity.AllVideoBean;
 import com.trsoft.catmovie.entity.SearchFilmTvResponse;
 import com.trsoft.catmovie.entity.TCMovieBean;
 
@@ -21,6 +22,10 @@ public interface SearchApi {
 
     @GET("qiang.php")
     Observable<ApiResultBean<List<TCMovieBean>>>  getTCMovie();
+
+
+    @GET("search_all_movie/movieAllSearch.php")
+    Observable<ApiResultBean<List<AllVideoBean>>> getAllVideo(@Query("p") String p,@Query("wd") String keyWord);
 
 
 
