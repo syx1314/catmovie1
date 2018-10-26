@@ -71,17 +71,26 @@ dependencies {
     compile 'com.gyf.barlibrary:barlibrary:2.3.0'
     //1.1.0 API改动过大，老用户升级需谨慎
     compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14'
-    implementation 'com.shuyu:gsyVideoPlayer-java:6.0.1'
-
-//是否需要ExoPlayer模式
-    implementation 'com.shuyu:GSYVideoPlayer-exo2:6.0.1'
-
-//根据你的需求ijk模式的so
-    implementation 'com.shuyu:gsyVideoPlayer-armv5:6.0.1'
-    implementation 'com.shuyu:gsyVideoPlayer-armv7a:6.0.1'
-    implementation 'com.shuyu:gsyVideoPlayer-arm64:6.0.1'
-    implementation 'com.shuyu:gsyVideoPlayer-x64:6.0.1'
+    //完整版引入
+    //    implementation 'com.shuyu:GSYVideoPlayer:6.0.1'
+    //    compile 'com.github.ctiao:DanmakuFlameMaster:0.9.25'
+    //    compile 'com.github.ctiao:ndkbitmap-armv7a:0.9.21'
+    //    implementation 'com.shuyu:gsyVideoPlayer-java:6.0.1'
+    //
+    ////是否需要ExoPlayer模式
+    //    implementation 'com.shuyu:GSYVideoPlayer-exo2:6.0.1'
+    //
+    ////根据你的需求ijk模式的so
+    //    implementation 'com.shuyu:gsyVideoPlayer-armv5:6.0.1'
+    //    implementation 'com.shuyu:gsyVideoPlayer-armv7a:6.0.1'
+    //    implementation 'com.shuyu:gsyVideoPlayer-arm64:6.0.1'
+    //    implementation 'com.shuyu:gsyVideoPlayer-x64:6.0.1'
     implementation 'com.shuyu:gsyVideoPlayer-x86:6.0.1'
-//    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14'//没有使用特殊Header，可以不加这行
-//    compile 'com.android.support:appcompat-v7:25.3.1'//版本 23以上（必须）
+    //    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14'//没有使用特殊Header，可以不加这行
+    //    compile 'com.android.support:appcompat-v7:25.3.1'//版本 23以上（必须）
+    compile(name: 'LiteAVSDK_Player_5.2.5541', ext: 'aar')
+        compile(name: 'lib_tcsuperplayer', ext: 'aar')
+    // 超级播放器弹幕集成的第三方库
+    compile 'com.github.ctiao:DanmakuFlameMaster:0.5.3'
+
 }
